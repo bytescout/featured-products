@@ -31,7 +31,7 @@ namespace ExtractText
             converter.ResampleImages = true;
             converter.ResamplingResolution = 120;
             // Compression format to store images in PDF
-            converter.ImageOptimizationFormat = ImageOptimizationFormat.JPEG;
+            converter.ImageFormat = ImageFormat.JPEG;
             converter.JPEGQuality = 25; // Quality (compression ratio)
 
 
